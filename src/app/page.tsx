@@ -14,7 +14,7 @@ export default function Home() {
         <p className="text-[#333333] md:text-[25px] text-[20px] font-medium italic text-justify hyphens-auto break-words leading-tight">Every night, throughout Cardito, hundreds of people dream about this face</p>
       </div>
       <Image src={someImage} alt="Cardito" className="md:w-[300px] w-[220px]" />
-      <p className="text-[#000000] md:text-[20px] text-[18px] font-medium">email: <span className="underline">help@cardito.info</span></p>
+      <p className="text-[#000000] md:text-[20px] text-[18px] font-medium">email: <a className="underline" href="mailto:help@cardito.info">help@cardito.info</a></p>
     </div>
   );
 }
