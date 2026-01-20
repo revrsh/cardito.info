@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cardito.info
+
+# Sitemaps
+Sitemap: https://cardito.info/sitemap.xml
