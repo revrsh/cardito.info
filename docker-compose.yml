@@ -1,6 +1,9 @@
 version: "3.8"
 
 services:
+  labels:
+    glance.name: Cardito
+    glance.url: https://cardito.info
   nextjs:
     build:
       context: .
